@@ -2,17 +2,6 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-h1{
-    font-size: 50px;
-    color: #575757;
-    font-weight: 600;
-}
-p{
-    font-size: 25px;
-    font-weight: 500;
-    color: #828282;
-}
-
 
 
 .top-section{
@@ -22,7 +11,6 @@ p{
     color: #FBA24F;
 }
 .half-width{
-    border: 2px red solid;
     width: 50%;
     padding-left: 5%;
     padding-top: 3%;
@@ -34,6 +22,7 @@ p{
     padding-top: 8%;
 }
 .order-button{
+    margin-top: 5%;
     padding: 20px 30px;
     border-radius: 40px;
     font-size: 20px;
@@ -41,6 +30,7 @@ p{
     background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
     border: 0;
 }
+
 
 
 .section-about-me{
@@ -61,13 +51,12 @@ p{
 .recipies-header{
     text-align: center;
 }
-
 .recipies{
     display: flex;
-    margin: 5%;
+    margin-top: 5%;
 }
 .recipie-box{
-    width: 25%;
+    width: 24%;
     margin-left: 5%;
     padding: 20px;
     border-radius: 30px;
@@ -77,6 +66,13 @@ p{
 .recipie-box img{
     width: 100%;
     border-radius: 20px;
+}
+.head-text{
+    font-size: 40px;
+}
+.recipi-text{
+    color: rgb(100, 100, 100);
+    font-size: 20px;
 }
 
 .information{
@@ -111,4 +107,22 @@ p{
     font-size: 15px;
     font-weight: 300;
     color: rgb(202, 201, 201);
+}
+
+
+
+h1{
+    font-size: 50px;
+    color: #575757;
+    font-weight: 600;
+}
+p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #828282;
+}
+h3{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
 }
