@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #575757;
+    font-weight: 600;
+}
+p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #828282;
+}
+
+
+
+.top-section{
+    display: flex;
+}
+.text-color{
+    color: #FBA24F;
+}
+.half-width{
+    border: 2px red solid;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+#half-left{
+    padding-top: 8%;
+}
+.order-button{
+    padding: 20px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to right,#FBA24F, #FF1E1E);
+    border: 0;
+}
+
+
+.section-about-me{
+    display: flex;
+    background-image: url('images/shapes/Frame\ 57.jpg');
+    background-repeat: no-repeat;
+}
+#about-img{
+    width: 40%;
+    padding-left: 20%;
+}
+
+
+.recipies-section{
+    background-color: #E5E5E5;
+    padding: 3%;
+}
+.recipies-header{
+    text-align: center;
+}
+
+.recipies{
+    display: flex;
+    margin: 5%;
+}
+.recipie-box{
+    width: 25%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 50px #b8b6b6;
+    background-color: rgb(231, 228, 228);
+}
+.recipie-box img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.information{
+    display: flex;
+    margin: 2% 5%;
+    margin-top: 8%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px #b8b6b6;
+    background-color: rgb(231, 228, 228);
+}
+.count-inform{
+    text-align: center;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 900;    
+}
+
+
+.footer{
+    height: 250px;
+    background-color: #0B0D17;
+}
+.foot-text{
+    color: rgb(148, 146, 146);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 50px;
+}
+.sub-text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(202, 201, 201);
+}
